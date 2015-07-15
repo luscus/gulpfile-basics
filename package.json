@@ -1,0 +1,45 @@
+{
+  "name": "gulpfile-basics",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./lib/gulpfile-basics",
+  "homepage": "https://github.com/luscus/gulpfile-basics",
+  "author": "https://github.com/luscus/gulpfile-basics/graphs/contributors",
+  "bugs": "https://github.com/luscus/gulpfile-basics/issues",
+  "description": "Provides basic gulp tasks such as watch, lint, test, coverage, shrinkwrap, bump, commit, release and publish",
+  "keywords": [
+    "gulp",
+    "gulpfile",
+    "basics",
+    "watch",
+    "coverage",
+    "shrinkwrap",
+    "release",
+    "publish"
+  ],
+  "dependencies": {
+    "gulp-bump": "0.3.1",
+    "gulp-git": "1.2.4",
+    "gulp-istanbul": "0.10.0",
+    "gulp-jshint": "1.11.1",
+    "gulp-mocha": "2.1.2",
+    "gulp-param": "0.6.3",
+    "gulp-shrinkwrap": "2.0.1",
+    "istanbul-cobertura-badger": "0.0.4",
+    "jshint-stylish": "2.0.1",
+    "npm": "2.12.0",
+    "q": "1.4.1"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "chai": "3.0.0",
+    "mocha": "2.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luscus/gulpfile-basics.git"
+  },
+  "scripts": {
+    "test": "gulp coverage"
+  }
+}

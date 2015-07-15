@@ -1,0 +1,11 @@
+node_modules/
+bower_components/
+.idea/
+coverage/
+etc/
+config/runtime.json
+*.orig
+npm-debug.log
+.DS_Store
+*~
+._*
