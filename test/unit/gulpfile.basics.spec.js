@@ -9,7 +9,7 @@
 
 require('chai').should();
 
-var gulp    = require('../lib/gulpfile-basics');
+var gulp    = require('../../lib/gulpfile-basics');
 var folders = process.cwd().split(/\/|\\/);
 
 describe('gulp-basics', function () {
