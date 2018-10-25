@@ -20,15 +20,16 @@
   "dependencies": {
     "gulp-bump": "0.3.1",
     "gulp-git": "1.2.4",
-    "gulp-istanbul": "0.10.0",
-    "gulp-jshint": "1.11.1",
-    "gulp-mocha": "2.1.2",
+    "gulp-istanbul": "1.1.2",
+    "gulp-jshint": "2.0.2",
+    "gulp-mocha": "3.0.0",
     "gulp-param": "0.6.3",
-    "gulp-shrinkwrap": "2.0.1",
-    "istanbul-cobertura-badger": "0.0.4",
+    "gulp-shrinkwrap": "2.0.2",
+    "istanbul-cobertura-badger": "1.0.0",
     "jshint-stylish": "2.0.1",
-    "npm": "2.12.0",
-    "q": "1.4.1"
+    "npm": "3.0.0",
+    "q": "1.4.1",
+    "snyk": "^1.105.0"
   },
   "devDependencies": {
     "gulp": "3.9.0",
@@ -40,6 +41,9 @@
     "url": "git@github.com:luscus/gulpfile-basics.git"
   },
   "scripts": {
-    "test": "gulp coverage"
-  }
+    "test": "gulp coverage",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
