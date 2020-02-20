@@ -18,7 +18,7 @@
     "publish"
   ],
   "dependencies": {
-    "gulp-bump": "0.3.1",
+    "gulp-bump": "2.0.0",
     "gulp-git": "1.2.4",
     "gulp-istanbul": "0.10.0",
     "gulp-jshint": "1.11.1",
