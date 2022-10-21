@@ -20,14 +20,14 @@
   "dependencies": {
     "gulp-bump": "0.3.1",
     "gulp-git": "1.2.4",
-    "gulp-istanbul": "0.10.0",
-    "gulp-jshint": "1.11.1",
-    "gulp-mocha": "2.1.2",
+    "gulp-istanbul": "0.10.2",
+    "gulp-jshint": "2.0.2",
+    "gulp-mocha": "3.0.0",
     "gulp-param": "0.6.3",
-    "gulp-shrinkwrap": "2.0.1",
+    "gulp-shrinkwrap": "2.0.2",
     "istanbul-cobertura-badger": "0.0.4",
     "jshint-stylish": "2.0.1",
-    "npm": "2.12.0",
+    "npm": "2.15.9",
     "q": "1.4.1"
   },
   "devDependencies": {
